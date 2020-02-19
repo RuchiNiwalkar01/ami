@@ -1,5 +1,6 @@
 # AWS AMI for CSYE 6225
 
+
 ## Validate Template
 packer validate ubuntu-ami.json
 
