@@ -4,6 +4,7 @@
 Packer is a tool for building identical machine images for multiple platforms from a single source configuration.
 Packer should be installed
 
+
 ## Validate Template
 packer validate ubuntu-ami.json
 
