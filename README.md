@@ -1,10 +1,10 @@
 # AWS AMI for CSYE 6225
 
-##Validate Template
+## Validate Template
 packer validate ubuntu-ami.json
 
 
-##Build AMI
+## Build AMI
 
 packer build \ 
 	-var "aws_access_key=${aws_access_key}" \
