@@ -1,9 +1,6 @@
 version: 2
 jobs:
   build:
-    branches:
-      only:
-        - master
     docker:
       - image: circleci/python:2.7-jessie
     steps:
@@ -31,4 +28,5 @@ jobs:
             -var "aws_secret_key=${aws_secret_key}" \
             -var "aws_region=${AWS_REGION}" \
             -var "account_ids=${account_ids}" \
+            -var "source_ami=${source_ami}" \
             ubuntu-ami.json
