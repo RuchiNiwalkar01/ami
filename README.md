@@ -8,10 +8,8 @@ Packer should be installed
 ## Validate Template
 packer validate ubuntu-ami.json
 
-TEST
 
 ## Build AMI
-
 packer build \ 
 	-var "aws_access_key=${aws_access_key}" \
 	-var 'aws_secret_key=${aws_secret_key}' \
