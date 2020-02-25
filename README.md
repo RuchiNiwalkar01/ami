@@ -8,6 +8,7 @@ Packer should be installed
 ## Validate Template
 packer validate ubuntu-ami.json
 
+TEST
 
 ## Build AMI
 
