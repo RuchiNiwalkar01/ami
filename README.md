@@ -2,7 +2,7 @@
 
 ## Pre-Requisites
 Packer is a tool for building identical machine images for multiple platforms from a single source configuration.
-Packer should be installed
+Packer should be installed on your machine
 
 
 ## Validate Template
