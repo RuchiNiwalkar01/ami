@@ -38,7 +38,7 @@
         {
             "type": "shell",
             "environment_vars": [
-                "FOO=foo"
+               "BUCKET_NAME_S3={{user `bucket_name_s3`}}","AWS_REGION={{user `aws_region`}}"
             ],
             "execute_command": "{{.Vars}} sudo -E -S bash '{{.Path}}'",
             "scripts": [
