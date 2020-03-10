@@ -46,9 +46,9 @@ jobs:
             ./packer build \
             -var "aws_access_key=${aws_access_key}" \
             -var "aws_secret_key=${aws_secret_key}" \
-            -var "aws_region=${AWS_REGION}" \
+            -var "aws_region=${AWS_REGION}" \                                                                                                                                                                		    -var "bucket_name_s3=${BUCKET_NAME_S3}" \
             -var "account_ids=${account_ids}" \
-            -var "source_ami=${source_ami}" \  -var "bucket_name_s3=${BUCKET_NAME_S3}" \
+            -var "source_ami=${source_ami}" \ 
             ubuntu-ami.json
 workflows:
   version: 2
